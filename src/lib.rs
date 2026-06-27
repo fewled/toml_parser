@@ -1,3 +1,6 @@
+pub mod parser_err;
+pub use parser_err::ParserError;
+
 pub(crate) mod node;
 pub(crate) use node::Node;
 
